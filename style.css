@@ -48,9 +48,9 @@ main {
 .pr1 {
   color: white;
   background-color: blue;
-  
-  top: 0
-  right: 0
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .pr2 {
