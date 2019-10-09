@@ -1,51 +1,52 @@
 body {
-  background-color: darkblue;
+  background-image: url('https://img.freepik.com/foto-gratuito/sfondo-unfocused-con-la-donna-in-un-negozio-di-abbigliamento_1258-4.jpg?size=626&ext=jpg');
+  background-size: cover;
 }
 
 main {
-  background-color: grey;
+  border-style: inset;
   border-radius: 30px;
   width: 650px;
 }
 
 .cont_scarpe {
   margin-left: 100px;
-  position: relative;
 }
-.cont_stivali {
-  margin-left: 100px;
+
+.mod {
+  width: 200px;
+  height: 200px;
+  border-style: inset;
+  display: inline-block;
+  position: relative;
+  background-size: cover;
 }
 
 .mod1 {
   background-image: url('https://media.lineonline.it/catalog/product/cache/1/image/2700x/9df78eab33525d08d6e5fb8d27136e95/t/i/timberlandpro_ref6201060.x_photo-1.jpg');
-  width: 200px;
-  height: 200px;
-  border-style: inset;
-  display: inline-block;
-}
-.mod2 {
-  background-image: url('https://www.misterrunning.com/images/1-media/nike/footwear/Nike-Odyssey-React-Scarpe-Running-Uomo-Black-AO9819_001_A.jpg');
-  width: 200px;
-  height: 200px;
-  border-style: inset;
-  display: inline-block;
-}
-.mod3 {
-  background-image: url('http://www.hmscare.it/wp-content/uploads/2017/08/scarpe-lacoste-deviation-217-uomo-verde-ss2409.jpg');
-  width: 200px;
-  height: 200px;
-  border-style: inset;
-  display: inline-block;
-}
-.mod4 {
-  background-image: url('https://www.nonsolosport.it/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/u/-/u-old-skool-arg-saucs60209m-3_3.jpg');
-  width: 200px;
-  height: 200px;
-  border-style: inset;
-  display: inline-block;
 }
 
-.pr1 {
+.mod2 {
+  background-image: url('https://www.misterrunning.com/images/1-media/nike/footwear/Nike-Odyssey-React-Scarpe-Running-Uomo-Black-AO9819_001_A.jpg');
+}
+
+.mod3 {
+  background-image: url('http://www.hmscare.it/wp-content/uploads/2017/08/scarpe-lacoste-deviation-217-uomo-verde-ss2409.jpg');
+}
+
+.mod4 {
+  background-image: url('https://www.nonsolosport.it/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/u/-/u-old-skool-arg-saucs60209m-3_3.jpg');
+}
+
+.mod5 {
+  background-image: url('https://www.studiocreazioni.com/6840-large_default/scarpe-con-tacco-alto-decollete-angela.jpg');
+}
+
+.mod6 {
+  background-image: url('https://image.dhgate.com/0x0/f2/albu/g8/M01/5B/11/rBVaVFw3GY2ACLkfAAFhD9WAH8M858.jpg');
+}
+
+.prezzo {
   color: white;
   background-color: blue;
   position: absolute;
@@ -53,17 +54,7 @@ main {
   right: 0;
 }
 
-.pr2 {
-  color: white;
-  background-color: blue;
-}
-
-.pr3 {
-  color: white;
-  background-color: blue;
-}
-
-.pr4 {
-  color: white;
-  background-color: blue;
+.mod:hover {
+  color: red;
+  \2764
 }
