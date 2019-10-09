@@ -1,16 +1,19 @@
 body {
-  background-color: darkblue;
+  background-color: #563dd4;
 }
 
 main {
-  background-color: grey;
+  background-color: #dedede;
   border-radius: 30px;
   width: 650px;
+  padding:"100px"
+  position: auto;
 }
 
 .cont_scarpe {
   margin-left: 100px;
   position: relative;
+ 
 }
 .cont_stivali {
   margin-left: 100px;
@@ -48,9 +51,7 @@ main {
 .pr1 {
   color: white;
   background-color: blue;
-  position: absolute;
-  top: 0;
-  right: 0;
+
 }
 
 .pr2 {
@@ -58,12 +59,4 @@ main {
   background-color: blue;
 }
 
-.pr3 {
-  color: white;
-  background-color: blue;
-}
 
-.pr4 {
-  color: white;
-  background-color: blue;
-}
