@@ -1,0 +1,69 @@
+body {
+  background-color: darkblue;
+}
+
+main {
+  background-color: grey;
+  border-radius: 30px;
+  width: 650px;
+}
+
+.cont_scarpe {
+  margin-left: 100px;
+  position: relative;
+}
+.cont_stivali {
+  margin-left: 100px;
+}
+
+.mod1 {
+  background-image: url('https://media.lineonline.it/catalog/product/cache/1/image/2700x/9df78eab33525d08d6e5fb8d27136e95/t/i/timberlandpro_ref6201060.x_photo-1.jpg');
+  width: 200px;
+  height: 200px;
+  border-style: inset;
+  display: inline-block;
+}
+.mod2 {
+  background-image: url('https://www.misterrunning.com/images/1-media/nike/footwear/Nike-Odyssey-React-Scarpe-Running-Uomo-Black-AO9819_001_A.jpg');
+  width: 200px;
+  height: 200px;
+  border-style: inset;
+  display: inline-block;
+}
+.mod3 {
+  background-image: url('http://www.hmscare.it/wp-content/uploads/2017/08/scarpe-lacoste-deviation-217-uomo-verde-ss2409.jpg');
+  width: 200px;
+  height: 200px;
+  border-style: inset;
+  display: inline-block;
+}
+.mod4 {
+  background-image: url('https://www.nonsolosport.it/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/u/-/u-old-skool-arg-saucs60209m-3_3.jpg');
+  width: 200px;
+  height: 200px;
+  border-style: inset;
+  display: inline-block;
+}
+
+.pr1 {
+  color: white;
+  background-color: blue;
+  
+  top: 0
+  right: 0
+}
+
+.pr2 {
+  color: white;
+  background-color: blue;
+}
+
+.pr3 {
+  color: white;
+  background-color: blue;
+}
+
+.pr4 {
+  color: white;
+  background-color: blue;
+}
