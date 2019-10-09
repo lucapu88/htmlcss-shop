@@ -54,7 +54,14 @@ main {
   right: 0;
 }
 
-.mod:hover {
-  color: red;
-  \2764
+.prezzo:hover {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  width:60px;
+  height: 60px;
+  border-radius: 30%;
+  text-align: center;
+  font-size: 25px;
+  content: "50%";
 }
