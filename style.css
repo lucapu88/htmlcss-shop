@@ -1,12 +1,26 @@
 body {
   background-image: url('https://img.freepik.com/foto-gratuito/sfondo-unfocused-con-la-donna-in-un-negozio-di-abbigliamento_1258-4.jpg?size=626&ext=jpg');
   background-size: cover;
+  margin: 0;
+  padding: 0;
 }
 
-main {
+.blocco1 {
   border-style: inset;
   border-radius: 30px;
   width: 650px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+
+}
+.blocco2 {
+  border-style: inset;
+  border-radius: 30px;
+  width: 650px;
+  position: absolute;
+  right: 10px;
+  top:10px;
 }
 
 .cont_scarpe {
@@ -46,6 +60,30 @@ main {
   background-image: url('https://image.dhgate.com/0x0/f2/albu/g8/M01/5B/11/rBVaVFw3GY2ACLkfAAFhD9WAH8M858.jpg');
 }
 
+.mod7 {
+  background-image: url('https://www.antinfortunisticagrilca.com/2046-thickbox_default/scarpe-antinfortunistiche-sparco-nitro-nrrs-s3.jpg');
+}
+
+.mod8 {
+  background-image: url('https://www.petrolioshop.com/15861-large_default/scarpe-nike-lebron-xvi-low-black-wheat-ci2668-001.jpg');
+}
+
+.mod9 {
+  background-image: url('https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Converse-Chuck-Taylor-All-Star-Ox-Maroon-%26-White-Shoes-_287567.jpg');
+}
+
+.mod10 {
+  background-image: url('https://www.dhresource.com/0x0s/f2-albu-g8-M00-DC-71-rBVaV1zYYfqAOU_mAAJIOsLMHFI433.jpg/gucci-scarpe-da-ginnastica-economiche-da.jpg');
+}
+
+.mod11 {
+  background-image: url('http://www.louisvuitton-saldi.it/images/LV20/sneaker-alta-match-up-nvprod470009v.jpg');
+}
+
+.mod12 {
+  background-image: url('https://images.eprice.it/nobrand/0/Lightbox/829/206948829/fila-disruptor-low-25y-black-fila-336433-dettaglio.jpg');
+}
+
 .prezzo {
   color: white;
   background-color: blue;
@@ -64,4 +102,19 @@ main {
   text-align: center;
   font-size: 25px;
   content: "50%";
+}
+
+.cuore {
+  color: red;
+  size: 100px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  visibility: hidden;
+}
+
+.mod:hover .cuore {
+  visibility: visible;
 }
