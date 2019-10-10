@@ -104,15 +104,15 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-
 }
 
 .mod:hover .sconto {
   visibility: visible;
 }
+
 .cuore {
   color: red;
-  size: 100px;
+  font-size: 50px;
   position: absolute;
   bottom: 10px;
   left: 0;
