@@ -92,18 +92,24 @@ body {
   right: 0;
 }
 
-.prezzo:hover {
+.sconto {
   cursor: pointer;
   background-color: red;
   color: white;
   width:60px;
-  height: 60px;
-  border-radius: 30%;
+  height: 40px;
   text-align: center;
-  font-size: 25px;
-  content: "50%";
+  font-size: 30px;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+
 }
 
+.mod:hover .sconto {
+  visibility: visible;
+}
 .cuore {
   color: red;
   size: 100px;
