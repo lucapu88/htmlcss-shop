@@ -12,8 +12,8 @@ body {
   position: relative;
   top: 10px;
   left: 10px;
-
 }
+
 .blocco2 {
   border-style: inset;
   border-radius: 30px;
@@ -94,8 +94,8 @@ body {
 
 .sconto {
   cursor: pointer;
-  background-color: red;
-  color: white;
+  background-color: yellow;
+  color: blue;
   width:60px;
   height: 40px;
   text-align: center;
